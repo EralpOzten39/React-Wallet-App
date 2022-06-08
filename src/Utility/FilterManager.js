@@ -51,11 +51,10 @@ const FilterManager = (
 
   //Ay kontrol
   if (monthFilter === "") {
-    newList = [...list]
+    newList = [...list];
   } else {
     for (let index = 0; index < list.length; index++) {
       if (list[index].date.slice(5, 7) === monthFilter) {
-        console.log("döngü test : " + list.length);
         newList.push(list[index]);
       }
     }

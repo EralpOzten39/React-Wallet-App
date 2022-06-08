@@ -7,7 +7,6 @@ let logUser = null;
 
 //Giriş yapan kullanıcıyı kontrol eden fonksiyon.
 const LoginManager = (username, password) => {
-
   for (let index = 0; index < Users.length; index++) {
     if (
       username === Users[index].username &&

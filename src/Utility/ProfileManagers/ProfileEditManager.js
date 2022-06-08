@@ -21,10 +21,10 @@ const ProfileEditManager = (
   ) {
     alert("Alanlar boş bırakılamaz.");
     return false;
-  } else if(user.password === password){
-      editUser(userId,newName,newSurname,newEmail,newUsername,password)
-      return true;
-  } else{
+  } else if (user.password === password) {
+    editUser(userId, newName, newSurname, newEmail, newUsername, password);
+    return true;
+  } else {
     alert("Hatalı şifre.");
     return false;
   }

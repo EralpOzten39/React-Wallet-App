@@ -1,7 +1,7 @@
 import "./FilterComBox.css";
 
 const FilterComBox = (props) => {
-  const { title,firstMsg, setVal, items } = props;
+  const { title, firstMsg, setVal, items } = props;
   return (
     <div className="main-cbox">
       <h1>{title}</h1>

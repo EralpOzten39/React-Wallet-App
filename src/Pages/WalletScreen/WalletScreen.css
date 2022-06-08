@@ -1,13 +1,13 @@
-.mid-header{
-    text-align: center;
+.mid-header {
+  text-align: center;
 }
 
 .wlt-main {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 0px;
-    width: 100%;
-    bottom: 50%;
-  }
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 100%;
+  bottom: 50%;
+}

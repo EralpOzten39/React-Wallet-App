@@ -8,7 +8,9 @@ const ExpenseDelete = (props) => {
       <h2>Devam Edilsin Mi?</h2>
 
       <div className="exp-test">
-        <button className="del-button" onClick={() => setRefundSelect(expense)}>Onayla</button>
+        <button className="del-button" onClick={() => setRefundSelect(expense)}>
+          Onayla
+        </button>
         <button onClick={() => setDelSelect()}>İptal</button>
       </div>
     </div>

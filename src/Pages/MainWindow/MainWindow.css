@@ -1,11 +1,11 @@
 .main-otr {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 0px;
-    width: 100%;
-    bottom: 50%;
-    font-size: larger;
-  }
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 100%;
+  bottom: 50%;
+  font-size: larger;
+}

@@ -22,7 +22,8 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
-  box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px, rgb(246 246 246 / 50%) 0px 0px 120px;
+  box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px,
+    rgb(246 246 246 / 50%) 0px 0px 120px;
 }
 
 .reg-inr input {
@@ -49,7 +50,7 @@
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
   box-sizing: border-box;
   cursor: pointer;
   font-size: 20px;
@@ -65,7 +66,7 @@
   touch-action: manipulation;
 }
 
-.success{
+.success {
   width: 350px;
   height: 350px;
 }

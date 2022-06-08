@@ -1,4 +1,3 @@
-
 const WalletDelete = (props) => {
   const { wallet, deleteWalletHandler, setDelWallet } = props;
   return (
@@ -7,7 +6,12 @@ const WalletDelete = (props) => {
         <h3>{wallet.title + " --- Cüzdanı Silinecek."}</h3>
       </div>
       <div className="test-class">
-        <button className="del-button" onClick={() => deleteWalletHandler(wallet.id)}>Onayla</button>
+        <button
+          className="del-button"
+          onClick={() => deleteWalletHandler(wallet.id)}
+        >
+          Onayla
+        </button>
         <button onClick={() => setDelWallet()}>İptal</button>
       </div>
     </div>

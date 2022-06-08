@@ -1,66 +1,67 @@
 .add-wlt-otr {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 0px;
-    width: 100%;
-    bottom: 50%;
-  }
-  
-  .add-wlt-inr {
-    display: flex;
-    flex-direction: column;
-    background-color: #909090aa;
-    border: 2px solid;
-    border-color: #3d3d3dcc;
-    border-radius: 50px;
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-    box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px, rgb(246 246 246 / 50%) 0px 0px 120px;
-  }
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 100%;
+  bottom: 50%;
+}
 
-  .add-wlt-inr input {
-    background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
-    width: 300px;
-    height: 40px;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 20px;
-    border: 0px;
-    text-align: center;
-  }
-  .add-wlt-inr input::placeholder {
-    color: black;
-  }
+.add-wlt-inr {
+  display: flex;
+  flex-direction: column;
+  background-color: #909090aa;
+  border: 2px solid;
+  border-color: #3d3d3dcc;
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px,
+    rgb(246 246 246 / 50%) 0px 0px 120px;
+}
 
-  .add-wlt-inr button {
-    background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
-    border: 0px;
-    color: black;
-    border-radius: 30px;
-    width: 150px;
-    height: 55px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 500;
-    outline: none;
-    outline: 0;
-    padding: 0px 25px;
-    text-align: center;
-    transform: translateY(0);
-    transition: transform 150ms, box-shadow 150ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+.add-wlt-inr input {
+  background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 0px;
+  text-align: center;
+}
+.add-wlt-inr input::placeholder {
+  color: black;
+}
+
+.add-wlt-inr button {
+  background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
+  border: 0px;
+  color: black;
+  border-radius: 30px;
+  width: 150px;
+  height: 55px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  outline: 0;
+  padding: 0px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }

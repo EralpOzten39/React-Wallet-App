@@ -76,8 +76,6 @@ const ReportManager = (
   } else {
     let newReportList = [];
     for (let index = 0; index < reportList.length; index++) {
-      console.log(reportList[index].categoryId);
-      console.log(category.id);
       if (reportList[index].categoryId === category.id) {
         newReportList.push(reportList[index]);
       }
@@ -86,7 +84,9 @@ const ReportManager = (
   }
 
   if (reportType === "in") {
-    showList = reportList.map((income) => <Income key={income.id} income={income}></Income>);
+    showList = reportList.map((income) => (
+      <Income key={income.id} income={income}></Income>
+    ));
   } else if (reportType === "out") {
     showList = reportList.map((expense) => (
       <ExpenseRep key={expense.id} expense={expense}></ExpenseRep>

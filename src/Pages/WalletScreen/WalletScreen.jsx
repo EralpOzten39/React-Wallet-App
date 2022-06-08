@@ -30,8 +30,6 @@ const WalletScreen = () => {
     if (DeleteWalletManager(walletId)) {
       setDelWallet(null);
     }
-    console.log(Wallets);
-    console.log(logUserWallets);
   };
 
   const showList = [];

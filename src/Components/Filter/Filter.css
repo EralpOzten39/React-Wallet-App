@@ -4,7 +4,7 @@
 
 .filter-main {
   text-align: center;
-    margin-top: 10px;
+  margin-top: 10px;
   background-color: #909090aa;
   border: 2px solid;
   border-color: #3d3d3dcc;
@@ -36,14 +36,14 @@
   touch-action: manipulation;
 }
 
-.center-h{
+.center-h {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.rep-btn{
+.rep-btn {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 100px;

@@ -33,7 +33,8 @@ export let Expenses = [
     title: "Ekran Kartı",
     ammount: 2000.0,
     date: "2021-04-29",
-  },{
+  },
+  {
     id: 3,
     userId: 0,
     walletId: 0,

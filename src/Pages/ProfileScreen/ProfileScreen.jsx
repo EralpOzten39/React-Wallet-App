@@ -39,7 +39,6 @@ const ProfileScreen = () => {
       setEmailPE("");
       setUsernamePE("");
       setOldPasswordPE("");
-      console.log(Users);
     }
   };
 

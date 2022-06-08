@@ -9,7 +9,9 @@ const Wallet = (props) => {
       </div>
       <div className="test-class">
         <button onClick={() => setSelectedWallet(wallet)}>Bakiye Ekle</button>
-        <button className="del-button" onClick={() => setDelWallet(wallet)}>Cüzdanı Sil</button>
+        <button className="del-button" onClick={() => setDelWallet(wallet)}>
+          Cüzdanı Sil
+        </button>
       </div>
     </div>
   );

@@ -12,7 +12,6 @@ const AddWalletScreen = () => {
 
   const walletHandler = () => {
     if (AddWalletManager(logUser.id, title, balance)) {
-      
       setTitle("");
       setAmmount("");
       setSuccess(true);

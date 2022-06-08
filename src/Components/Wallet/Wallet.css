@@ -60,7 +60,7 @@
   margin-left: 20px;
 }
 
-.del-button:hover{
+.del-button:hover {
   background: linear-gradient(to bottom right, #ff0000ee, rgb(255, 100, 100));
   color: white;
 }

@@ -10,7 +10,9 @@ const Expense = (props) => {
       <h2>{"Tutar : " + expense.ammount}</h2>
       <h2>{"Cüzdan Adı : " + expense.walletTitle}</h2>
       <div className="exp-test">
-        <button className="del-button" onClick={() => setDelSelect(expense)}>Harcamayı Sil</button>
+        <button className="del-button" onClick={() => setDelSelect(expense)}>
+          Harcamayı Sil
+        </button>
       </div>
     </div>
   );
