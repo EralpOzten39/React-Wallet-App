@@ -1,0 +1,63 @@
+.ms-main {
+  text-align: center;
+  display: flex;
+}
+
+.ms-main button {
+  background: linear-gradient(to bottom right, #202020c1, #7c7c7cc1);
+  border: 1px solid;
+  border-color: lightgray;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-top: 0.5%;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.ms-main button:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(0, 17, 111, 0.5),
+    0.125rem 0.125rem 1rem rgba(0, 14, 143, 0.5);
+  color: rgb(30, 0, 198);
+}
+
+.ms-main button:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(255, 255, 255, 0.5),
+    0.125rem 0.125rem 1rem rgba(112, 112, 112, 0.5);
+}
+
+.ms-top {
+  background-color: #000000bb;
+  height: 80px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  display: flex;
+  box-shadow: rgb(0, 0, 0) 0px 10px 50px, rgb(0, 0, 0) 0px 10px 100px;
+}
+
+.ms-top h2 {
+  margin: auto;
+  margin-left: 30px;
+}
+
+.ms-top h4 {
+  margin: auto;
+  margin-right: 75px;
+}

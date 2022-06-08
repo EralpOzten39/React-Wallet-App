@@ -1,0 +1,41 @@
+.main-cbox {
+  text-align: center;
+  display: flex;
+  font-size: small;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.main-cbox select {
+  background: linear-gradient(to bottom right, #b8b6b9ee, #ffffffff);
+  color: black;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  border-radius: 20px;
+  border: 0px;
+  text-align: center;
+}
+
+/*.main-cbox {
+    text-align: center;
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+    width: 300px;
+    background-color: #909090aa;
+    border: 2px solid;
+    border-color: #3d3d3dcc;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    box-shadow: rgb(0 10 18 / 10%) 0px 3px 120px,
+      rgb(246 246 246 / 50%) 0px 0px 120px;
+  }*/

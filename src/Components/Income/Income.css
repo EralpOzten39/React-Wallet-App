@@ -1,0 +1,25 @@
+.inc-div-cmp {
+    margin: 1%;
+    margin-bottom: 0.05%;
+    margin-top: 10px;
+    width: 23%;
+    background: linear-gradient(to bottom right, #202020c1, #7c7c7cc1);
+    border: 2px solid;
+    border-color: rgb(0, 172, 0,0.7);
+    border-radius: 12px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    outline: transparent;
+    padding: 0 1rem;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
