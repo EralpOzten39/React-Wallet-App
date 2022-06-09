@@ -9,6 +9,7 @@ const ProfileEdit = (props) => {
         <div>
           <h2>Eski Şifre :</h2>
           <input
+            type="password"
             onChange={(event) => setOldPasswordPE(event.target.value)}
             placeholder="Eski Şifre"
           ></input>
@@ -16,6 +17,7 @@ const ProfileEdit = (props) => {
         <div>
           <h2>Yeni Şifre :</h2>
           <input
+            type="password"
             onChange={(event) => setNewPasswordPE(event.target.value)}
             placeholder="Yeni Şifre"
           ></input>

@@ -6,8 +6,8 @@ import RegisterScreen from "../RegisterScreen/RegisterScreen";
 import "./LoginScreen.css";
 
 const LoginScreen = () => {
-  const [enteredUsername, setEnteredUsername] = useState("eralpozten");
-  const [enteredPassword, setEnteredPassword] = useState("123456");
+  const [enteredUsername, setEnteredUsername] = useState("");
+  const [enteredPassword, setEnteredPassword] = useState("");
   const [regState, setRegState] = useState(false);
   const [logState, setLogState] = useState(false);
 
@@ -37,7 +37,7 @@ const LoginScreen = () => {
           <div>
             <input
               className="inpt-cls"
-              type="text"
+              type="password"
               value={enteredPassword}
               onChange={(event) => setEnteredPassword(event.target.value)}
               placeholder="Şifre"

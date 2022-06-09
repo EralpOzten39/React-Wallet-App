@@ -3,10 +3,10 @@ import { useState } from "react";
 import { logUser } from "../../Utility/LoginManager";
 import ProfileEditManager from "../../Utility/ProfileManagers/ProfileEditManager";
 import PasswordEditManager from "../../Utility/ProfileManagers/PasswordEditManager";
-import { Users } from "../../Data/Users";
 import Profile from "../../Components/Profile/Profile";
 import ProfileEdit from "../../Components/Profile/ProfileEdit";
 import ProfilePassEdit from "../../Components/Profile/ProfilePassEdit";
+import "./Profile.css";
 
 const ProfileScreen = () => {
   const [proEdit, setProEdit] = useState(false);
@@ -55,9 +55,11 @@ const ProfileScreen = () => {
 
   if (success) {
     return (
-      <div>
-        <h1>Güncelleme başarılı.</h1>
-        <button onClick={() => setSuccess(false)}>Profile Geri Dön</button>
+      <div className="prfl-otr">
+        <div className="prfl-inr">
+          <h1>Güncelleme başarılı</h1>
+          <button onClick={() => setSuccess(false)}>Profil</button>
+        </div>
       </div>
     );
   } else if (proEdit) {

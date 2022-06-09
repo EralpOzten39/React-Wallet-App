@@ -17,6 +17,7 @@ const ProfileEdit = (props) => {
         <div>
           <div>
             <input
+              type="text"
               value={info[0]}
               onChange={(event) => setNamePE(event.target.value)}
               placeholder="-Ad-"
@@ -24,6 +25,7 @@ const ProfileEdit = (props) => {
           </div>
           <div>
             <input
+              type="text"
               value={info[1]}
               onChange={(event) => setSurnamePE(event.target.value)}
               placeholder="-Soyad-"
@@ -32,6 +34,7 @@ const ProfileEdit = (props) => {
         </div>
         <div>
           <input
+            type={"text"}
             value={info[2]}
             onChange={(event) => setEmailPE(event.target.value)}
             placeholder="-Email-"
@@ -39,6 +42,7 @@ const ProfileEdit = (props) => {
         </div>
         <div>
           <input
+            type="text"
             value={info[3]}
             onChange={(event) => setUsernamePE(event.target.value)}
             placeholder="-Kullanıcı Adı-"
@@ -46,6 +50,7 @@ const ProfileEdit = (props) => {
         </div>
         <div>
           <input
+            type="password"
             onChange={(event) => setOldPasswordPE(event.target.value)}
             placeholder="-Şifre-"
           ></input>
